@@ -1,0 +1,21 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+background: rgb(1, 2, 46);
+}
+
+.inicio{
+    position:absolute;
+    width:23px;
+    height:53px;
+    left:63px;
+    top: 180px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 70px;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: white;
+}
+
