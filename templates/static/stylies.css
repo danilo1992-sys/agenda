@@ -1,21 +1,82 @@
 html {
     font-family: 'Montserrat', sans-serif;
-background: rgb(1, 2, 46);
+background:rgb(1, 2, 46);
 }
+
+/* Sign In. */
 
 .inicio{
     position:absolute;
-    width:23px;
+    width: 234px;
     height:53px;
-    left:63px;
-    top: 180px;
+    left:612px;
+    top: 167px;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 70px;
+    font-weight: 700;
     font-size: 48px;
     line-height: 72px;
     text-align: center;
+
     color: white;
 }
 
+/* email && password */
+
+.email{
+    box-sizing: border-box;
+    position:absolute;
+    width: 411px;
+    height: 61px;
+    left: 514px;
+    top: 297px;
+    border: 4px solid rgba(245, 245, 245, 0.925);
+    border-radius: 18px;
+    background-color: rgb(1, 2, 46);
+    
+}
+
+.password{
+    color: white;
+    box-sizing: border-box;
+    position:absolute;
+    width: 411px;
+    height: 61px;
+    left: 514px;
+    top: 360px;
+    border: 4px solid rgba(245, 245, 245, 0.925);
+    border-radius: 18px;
+    background-color: rgb(1, 2, 46);
+}
+
+/* botton the sig in */
+.button{
+    background-color: white;
+    position: absolute;
+    width: 411px;
+    height:61px;
+    left: 514px;
+    top:475px;
+    border-radius: 18px;
+    
+
+}
+.button:hover{
+    background-color: rgb(1, 2, 46);
+    color: whitesmoke;
+}
+
+/* Register */
+
+.register{
+    color: white;
+    position: absolute;
+    width: 197px;
+    height: 28px;
+    left: 612px;
+    top: 564px;
+    font-family: 'Montserrat';
+    text-align: center;
+    
+}
