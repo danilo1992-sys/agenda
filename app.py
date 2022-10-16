@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from flask_mysqldb import MySQL
+from flask mysqldb import MySQL
 app=Flask(__name__)
 app.config['MYSQL_HOST'] = '127.0.0.1'
 app.config['MYSQL_USER'] = 'root'
@@ -30,8 +30,8 @@ def editar_contaco():
 
 @app.route('/delete')
 def delete_contactos():
-if __name__ == '__main__':
-    app.run(port = 3000, debug=True)
+    if __name__ == '__main__':
+        app.run(port = 3000, debug=True)
 
 
 
